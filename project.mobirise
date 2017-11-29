@@ -966,11 +966,11 @@
             }
           },
           "_cid": "qzLoe9BQMb",
+          "_anchor": "menu1-18",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-18"
+          "_params": {}
         },
         {
           "_styles": {
@@ -984,11 +984,11 @@
           "_name": "content4",
           "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    ¿QUIENES SOMOS?</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qCnM2EpC4J",
+          "_anchor": "content4-1a",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-1a"
+          "_params": {}
         },
         {
           "_styles": {
@@ -1002,11 +1002,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>Somos....</div>\n        </div>\n    </div>\n</section>",
           "_cid": "qCnM4bFrdj",
+          "_anchor": "content1-1b",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-1b"
+          "_params": {}
         }
       ]
     },
@@ -1413,11 +1413,11 @@
             }
           },
           "_cid": "qzLoe9BQMb",
+          "_anchor": "menu1-19",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-19"
+          "_params": {}
         },
         {
           "_styles": {
@@ -1433,11 +1433,11 @@
           "_name": "content5",
           "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">ITS</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    INFECCIONES DE TRANSMISIÓN SEXUAL</h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qCodk9eoz1",
+          "_anchor": "content5-1l",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-1l"
+          "_params": {}
         },
         {
           "_styles": {
@@ -1454,11 +1454,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><b>PREVENCIÓN DE LA INFECCIONES DE TRANSMISIÓN SEXUAL</b><div><br></div><div><b>Asesoramiento y enfoques conductuales</b></div><div>Las intervenciones de asesoramiento y enfoques conductuales representan la prevención primaria contra las ITS (incluido el VIH). Esas intervenciones incluyen:</div><div><br></div><div>educación sexual integral, asesoramiento antes y después de las pruebas de ITS y VIH;</div><div>asesoramiento sobre prácticas sexuales más seguras y reducción de riesgos, promoción del uso de preservativos;</div><div>intervenciones dirigidas a grupos de población claves, incluidos trabajadores sexuales, hombres homosexuales y consumidores de drogas inyectables; y</div><div>asesoramiento y educación sexual adaptadas a las necesidades de los adolescentes.</div><div>Además, el asesoramiento puede mejorar la capacidad de las personas para reconocer los síntomas de las ITS, con lo que aumentarán las probabilidades de que soliciten atención o alienten a sus parejas sexuales a hacerlo. Lamentablemente, la falta de sensibilidad del público, la falta de capacitación del personal sanitario y el arraigado estigma generalizado en torno a las ITS siguen dificultando un mayor y más eficaz recurso a esas intervenciones.</div><div><br></div><div><b>Métodos de barrera</b></div><div>Cuando se usan correcta y sistemáticamente, los preservativos son uno de los métodos de protección más eficaces contra las ITS, incluido el VIH. Los preservativos femeninos son eficaces y seguros, pero en el marco de los programas nacionales no se utilizan tan ampliamente como los preservativos masculinos.</div><div><br></div><div><b>DIAGNÓSTICO DE LAS INFECCIONES DE TRANSMISÓN SEXUAL</b></div><div><b><br></b></div><div>En los países de altos ingresos se utilizan ampliamente pruebas de diagnóstico de ITS muy precisas. Esas pruebas son particularmente útiles para diagnosticar infecciones asintomáticas. Ahora bien, en los países de ingresos bajos y medianos las pruebas de diagnóstico generalmente no están disponibles. Cuando lo están, suelen ser costosas y geográficamente inaccesibles; además, con frecuencia, los pacientes tienen que esperar mucho tiempo (o deben regresar) para recibir los resultados. En consecuencia, el seguimiento puede ser difícil y la atención o el tratamiento pueden quedar incompletos.</div><div><br></div><div>Los únicos análisis rápidos y económicos actualmente disponibles en relación con una ITS son los de la sífilis y del VIH. El análisis de la sífilis ya se realiza en algunos entornos de recursos limitados. El análisis es preciso, los resultados se pueden obtener en 15 o 20 minutos, y es posible realizarlo fácilmente con una capacitación básica. Estos análisis rápidos han dado lugar a un aumento del número de embarazadas que se examinan para detectar una posible sífilis. Sin embargo, aún es necesario redoblar esfuerzos en la mayoría de los países de ingresos bajos y medianos, a fin de asegurar que todas las embarazadas puedan realizar un análisis de la sífilis.</div><div><br></div><div>Con respecto a otras ITS, se están desarrollando algunos análisis rápidos que podrían mejorar el diagnóstico y tratamiento de esas infecciones, especialmente en entornos de recursos limitados.</div><div><b><br></b></div><div><b>EL TRATAMIENTO DE LAS ITS</b></div><div><b><br></b></div><div>Actualmente se dispone de tratamiento eficaz contra algunas ITS.</div><div><br></div><div>Tres ITS bacterianas (clamidiasis, gonorrea y sífilis) y una parasitaria (tricomoniasis) son generalmente curables con los eficaces regímenes de antibióticos de dosis única existentes.</div><div>Para el herpes y el VIH, los medicamentos más eficaces disponibles son los antivíricos, que pueden atenuar la evolución de la enfermedad, pero no curarla.</div><div>Para la hepatitis B, los moduladores del sistema inmunitario (interferón) y los medicamentos antivíricos pueden ayudar a luchar contra el virus y frenar los daños al hígado.</div><div>La resistencia de las ITS, en particular la gonorrea, a los antibióticos, ha aumentado rápidamente en los últimos años y ha limitado las opciones de tratamiento. El desarrollo de una menor sensibilidad de la gonorrea a la opción terapéutica de “última línea” (cefalosporinas orales e inyectables), junto con la resistencia a los antimicrobianos revelada anteriormente con respecto a las penicilinas, sulfamidas, tetraciclinas, quinolonas y macrólidos convierten a la gonorrea en un organismo polifarmacorresistente. En cuanto a otras ITS, la resistencia a los antimicrobianos es menos común pero también existe, y por lo tanto la prevención y el tratamiento tempranos son cruciales.</div><div><br></div><div><b>Manejo de casos de ITS</b></div><div>En los países de ingresos bajos y medianos, el manejo de casos se centra en la identificación de grupos coherentes de signos y síntomas fácilmente reconocibles, que luego determinarán el tratamiento a seguir, sin recurrirse a pruebas de laboratorio. Esto se conoce como manejo sindrómico. Este método, que suele fundamentarse en el uso de algoritmos clínicos, permite a los trabajadores sanitarios diagnosticar determinadas infecciones sobre la base de los síndromes observados (por ejemplo, secreción vaginal, secreción uretral, úlceras genitales, dolor abdominal).</div><div><br></div><div>La gestión de los síndromes es sencilla, asegura un tratamiento rápido en el día y evita pruebas de diagnóstico costosas o no disponibles. No obstante, este enfoque pasa por alto las infecciones que no presentan ningún síndrome, que son la mayoría de la ITS en todo el mundo.</div><div><br></div><div><b>Vacunas y otras intervenciones biomédicas</b></div><div><br></div><div>Para prevenir dos de las ITS (hepatitis B y virus del papiloma humano) hay vacunas seguras y muy eficaces disponibles. Esas vacunas ha supuesto importantes avances en la prevención de las ITS. La vacuna contra la hepatitis B se incluye en los programas de inmunización infantil en el 93% de los países, y se estima que ha prevenido unos 1,3 millones de defunciones por hepatopatía crónica y cáncer.</div><div><br></div><div>La vacuna contra el VPH está disponible como parte de los programas de inmunización sistemática en 45 países, en su mayoría de ingresos altos y medianos. La vacunación contra el VPH podría prevenir la muerte de más de 4 millones de mujeres en la próxima década en los países de ingresos bajos y medianos, donde se concentran la mayoría de los casos de cáncer cervicouterino, si se logra alcanzar una cobertura vacunal del 70%.</div><div><br></div><div>La investigación orientada al desarrollo de vacunas contra el herpes y el VIH está adelantada con varios candidatos a vacuna en desarrollo clínico temprano. La investigación sobre vacunas contra la clamidiasis, la gonorrea y la tricomoniasis está en las fases iniciales de desarrollo.</div><div><br></div><div>Otras intervenciones biomédicas para prevenir algunas ITS incluyen la circuncisión en hombres adultos y el empleo de microbicidas.</div><div><br></div><div>En los hombres, la circuncisión reduce el riesgo de infección con el VIH adquirida por vía heterosexual en aproximadamente un 60%, y proporciona alguna protección contra otras ITS, entre ellas el herpes y el VPH.</div><div>El tenofovir en gel, empleado como microbicida vaginal, ha arrojado resultados poco homogéneos en cuanto a su capacidad para prevenir la infección por el VIH, aunque ha demostrado cierta eficacia contra el VHS-2.</div><div>Los esfuerzos actuales para contener la propagación de las ITS no son suficientes</div><div><br></div><div><b>Los cambios de comportamientos son complejos</b></div><div>A pesar de los considerables esfuerzos realizados para identificar intervenciones simples que puedan reducir los comportamientos sexuales de riesgo, los cambios de esos comportamientos siguen suponiendo un desafío complejo. La investigación ha demostrado la necesidad de centrar la atención en poblaciones cuidadosamente definidas, consultar ampliamente con las poblaciones destinatarias identificadas e incorporarlas en las actividades de diseño, aplicación y evaluación.</div><div><br></div><div>Los servicios de detección y tratamiento de las ITS siguen siendo inadecuados</div><div>Las personas que necesitan servicios de detección y tratamiento de ITS deben afrontar numerosos problemas. Estos incluyen la escasez de recursos, la estigmatización, la calidad insuficiente de los servicios y el limitado o inexistente seguimiento de las parejas sexuales.</div><div><br></div><div>En muchos países, los servicios de ITS se proporcionan separadamente y no están disponibles en el ámbito de la atención primaria de salud, la planificación familiar y otros servicios sanitarios ordinarios.</div><div>En numerosos entornos los servicios no pueden detectar infecciones asintomáticas dado que carecen de personal idóneo, capacidad de laboratorio y suficientes suministros de medicamentos adecuados.</div><div>Las poblaciones marginadas que registran las tasas más altas de ITS, incluidos trabajadores sexuales, hombres homosexuales, consumidores de drogas inyectables, reclusos, poblaciones nómadas y adolescentes, con frecuencia carecen de acceso a servicios de salud apropiados.</div><div><br></div></div>\n        </div>\n    </div>\n</section>",
           "_cid": "qCoeJnBtwj",
+          "_anchor": "content1-1o",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-1o"
+          "_params": {}
         }
       ]
     },
@@ -1865,11 +1865,11 @@
             }
           },
           "_cid": "qzLoe9BQMb",
+          "_anchor": "menu1-1f",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-1f"
+          "_params": {}
         },
         {
           "_styles": {
@@ -1905,11 +1905,11 @@
           "_name": "header9",
           "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-md-8\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">SALUD SEXUAL</h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\"></p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"ETS.html\">ETS</a>\n                <a class=\"btn btn-md btn-black-outline\" href=\"liberdadsexual.html\">Libertad sexual</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qCo61zP2Bv",
+          "_anchor": "header9-1i",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header9-1i"
+          "_params": {}
         }
       ]
     },
@@ -2316,11 +2316,11 @@
             }
           },
           "_cid": "qzLoe9BQMb",
+          "_anchor": "menu1-1p",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-1p"
+          "_params": {}
         },
         {
           "_styles": {
@@ -2336,11 +2336,11 @@
           "_name": "content5",
           "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">LIBERDAD SEXUAL</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qCom9y0KiF",
+          "_anchor": "content5-1q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-1q"
+          "_params": {}
         },
         {
           "_styles": {
@@ -2354,11 +2354,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <b> Make your own website in a few clicks!</b> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <i>mobile friendly websites</i> in a few clicks. Mobirise is one of the easiest website development tools <a href=\"https://mobirise.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qComa58rL5",
+          "_anchor": "content1-1r",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-1r"
+          "_params": {}
         }
       ]
     }
